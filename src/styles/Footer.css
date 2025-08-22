@@ -1,0 +1,6 @@
+.site-footer { padding: 20px 0; border-top: 1px solid var(--glass-border); background: var(--surface); margin-top: 28px; }
+.footer-inner { display: flex; align-items: center; justify-content: space-between; }
+.footer-brand { font-weight: 800; }
+.footer-actions { display: flex; align-items: center; gap: 10px; }
+.footer-btn { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 10px; border: 1px solid var(--glass-border); background: var(--accent-soft); color: var(--accent-strong); text-decoration: none; }
+

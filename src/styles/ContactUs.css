@@ -1,0 +1,38 @@
+/* Contact page styles */
+.contact-page { background: var(--gradient-app); color: var(--text-primary); }
+.contact-hero { padding: 56px 0 24px; }
+.contact-title { font-size: 40px; margin: 0 0 8px; }
+.contact-sub { opacity: .8; margin: 0; }
+
+.contact-content { padding: 16px 0 48px; }
+.container { width: min(1100px, 92%); margin: 0 auto; }
+.grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 24px; align-items: start; }
+
+.contact-card, .info-card { background: var(--panel-bg, rgba(255,255,255,.06)); border: 1px solid rgba(255,255,255,.1); border-radius: 14px; padding: 20px; backdrop-filter: blur(8px); }
+.contact-card h2 { margin: 0 0 12px; }
+
+.contact-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.contact-list li { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start; }
+.contact-list .icon { width: 28px; height: 28px; display: grid; place-items: center; background: rgba(99,102,241,.15); color: #c7d2fe; border-radius: 8px; }
+.contact-list .label { font-weight: 600; opacity: .9; }
+.contact-list a { color: #93c5fd; text-decoration: none; }
+.contact-list a:hover { text-decoration: underline; }
+.address { margin: 2px 0 0; opacity: .9; }
+
+.socials { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.social { display: inline-flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: 999px; border: 1px solid rgba(255,255,255,.12); color: inherit; text-decoration: none; background: rgba(255,255,255,.06); }
+.social:hover { border-color: rgba(99,102,241,.6); }
+
+.contact-aside .info-card + .info-card { margin-top: 16px; }
+.info-card h3 { margin: 0 0 8px; }
+.info-card ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.info-card a { color: #93c5fd; text-decoration: none; }
+.info-card a:hover { text-decoration: underline; }
+.map-embed { margin-top: 10px; border-radius: 10px; overflow: hidden; border: 1px solid rgba(255,255,255,.1); }
+.map-embed iframe { width: 100%; height: 220px; border: 0; display: block; }
+
+@media (max-width: 860px) {
+  .grid { grid-template-columns: 1fr; }
+  .contact-form { grid-template-columns: 1fr; }
+}
+
