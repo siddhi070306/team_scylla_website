@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-brand">Team Scylla Racing</div>
         <div className="footer-actions">
           <a href="#" aria-label="LinkedIn" className="footer-btn"><Linkedin size={18} /></a>
-          <a href="#" aria-label="Instagram" className="footer-btn"><Instagram size={18} /></a>
+          <a href="https://www.instagram.com/teamscyllaracing?igsh=emNhcmg5M2ZjdWEx" aria-label="Instagram" className="footer-btn"><Instagram size={18} /></a>
         </div>
       </div>
     </footer>

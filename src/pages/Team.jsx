@@ -27,6 +27,11 @@ import IMG_Nikita from '@/assets/nikita.jpg'
 import IMG_YashHiwale from '@/assets/yash hiwale.jpg'
 import IMG_SidhantMore from '@/assets/sidhant more.jpg'
 import IMG_PriuthvirajDhawale from '@/assets/priuthviraj dhavale.jpg'
+import IMG_AdityaGangane from '@/assets/aditya.jpg'
+import IMG_DheerajMahale from '@/assets/dheeraj.jpg'
+import IMG_ManasDudhe from '@/assets/manas.jpg'
+import IMG_SiddhiBhosale from '@/assets/siddhi.jpg'
+import IMG_AryanTagad from '@/assets/aryan.jpg'
 
 const TEAM = [
   { name: 'Tejas Patil', role: 'Captain', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_TejasPatil },
@@ -35,28 +40,28 @@ const TEAM = [
   { name: 'Yash Bagade', role: 'HEAD of CHASSIS DEPT', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_YashBagade },
   { name: 'Darshan Garud', role: 'HEAD of BRAKE DEPT', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Darshan },
   { name: 'Nilesh Patil', role: 'HEAD of POWERTRAIN DEPT', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_NileshPatil },
-  { name: 'Aditi Dhobare', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Aditi },
   { name: 'Akash Singh', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_AkashSingh },
   { name: 'Priuthviraj Ingawale', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Prithiviraj },
   { name: 'Swapnil Kolekar ', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_SwapnilKolekar },
   { name: 'Kausthubh Sonavwane', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Kausthub },
+  { name: 'Aryan Tagad', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_AryanTagad },
+  { name: 'Manas Dudhe', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_ManasDudhe },
+  { name: 'Siddhi Bhosale', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_SiddhiBhosale },
+  { name: 'Aditi Dhobare', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Aditi },
+  { name: 'Madiha Shaikh', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Madiha },
+  { name: 'Sanskruti Jamdhade', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Sanskruti },
+  { name: 'Nikita Bhosale', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Nikita },
   { name: 'Ayush Mahajan', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_AyushMahajan },
   { name: 'Raj Chorge', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_RajChorge },
   { name: 'Harsh Yeram', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_HarshYeram },
   { name: 'Yash Patil', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_YashPatil },
-  { name: 'Madiha Shaikh', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Madiha },
   { name: 'Krishna Pardeshi', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_KrishnaPardeshi },
-  { name: 'Sanskruti Jamdhade', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Sanskruti },
-  { name: 'Nikita Bhosale', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_Nikita },
-  { name: 'Aditya Gangane', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=640&auto=format&fit=crop' },
+  { name: 'Aditya Gangane', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_AdityaGangane },
   { name: 'Yash Patil', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_YashPatilSE },
-  { name: 'Dheeraj Mahale', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=640&auto=format&fit=crop' },
+  { name: 'Dheeraj Mahale', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_DheerajMahale },
   { name: 'Yash Hiwale', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_YashHiwale },
   { name: 'Siddhiant More', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_SidhantMore },
   { name: 'Priuthviraj Dhawale', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: IMG_PriuthvirajDhawale },
-  { name: 'Aryan Tagad', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=640&auto=format&fit=crop' },
-  { name: 'Siddhi Bhosale', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=640&auto=format&fit=crop' },
-  { name: 'Manas Dudhe', role: 'MEMBER', email: 'member@example.com', linkedin: 'https://linkedin.com', img: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=640&auto=format&fit=crop' },
 ]
 
 export default function Team() {

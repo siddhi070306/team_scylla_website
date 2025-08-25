@@ -233,8 +233,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Sponsors section removed per request */}
-
       <section className="cta-foot">
         <motion.div className="cta-card" whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 16 }} transition={{ duration: .6, ease: [0.16,1,0.3,1] }}>
           <div className="cta-info">

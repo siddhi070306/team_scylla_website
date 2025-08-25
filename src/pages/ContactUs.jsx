@@ -41,7 +41,7 @@ const ContactUs = () => {
             </ul>
 
             <div className="socials">
-              <a className="social" href="https://instagram.com/team_scylla" target="_blank" rel="noreferrer" aria-label="Instagram">
+              <a className="social" href="https://www.instagram.com/teamscyllaracing?igsh=emNhcmg5M2ZjdWEx" target="_blank" rel="noreferrer" aria-label="Instagram">
                 <Instagram size={18} />
                 <span>Instagram</span>
               </a>
