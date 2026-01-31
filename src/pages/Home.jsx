@@ -141,35 +141,37 @@ const Home = () => {
           onClick={(e) => ripplesRef.current?.triggerAtPoint(e.clientX, e.clientY)}
         >
           <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .6, ease: [0.16,1,0.3,1] }}>
-            <div className="badge">Fueling Innovation</div>
+            <div className="badge">Portfolio</div>
           </motion.div>
           <motion.h1 className="hero-title" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .08, duration: .7, ease: [0.16,1,0.3,1] }}>
-            Team Scylla Racing
+            Siddhi Bhosale
             <span className="title-glow" />
           </motion.h1>
           <motion.p className="hero-sub" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .12, duration: .6 }}>
-            Official Team of Nutan Maharashtra Institute of Education and Technology handled by students.
+           Hey there! I'm a Computer Science Engineering student who is passionately diving into the world of software development. My goal is to build clean, efficient, and impactful web applications.
+
           </motion.p>
           <motion.p className="hero-sub" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .12, duration: .6 }}>
-            Building next‑gen performance with precision, passion, and purpose.
+           My current tech stack is centered around MERN (MongoDB, Express.js, React, and Node.js)
           </motion.p>
           <motion.div className="cta-row" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .16, duration: .5 }}>
             <motion.a whileHover={{ y: -3, scale: 1.02 }} whileTap={{ scale: .98 }} href="#gallery" className="cta primary">
               <Camera size={18} />
-              <span>View Gallery</span>
+              <span>Insights of Projects</span>
             </motion.a>
-            <motion.a whileHover={{ y: -3, scale: 1.02 }} whileTap={{ scale: .98 }} href="#features" className="cta ghost">
+            {/* <motion.a whileHover={{ y: -3, scale: 1.02 }} whileTap={{ scale: .98 }} href="#features" className="cta ghost">
               <Rocket size={18} />
               <span>Learn More</span>
-            </motion.a>
+            </motion.a> */}
           </motion.div>
-          <motion.div className="stats" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .22, duration: .5 }}>
+          {/* <motion.div className="stats" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .22, duration: .5 }}>
             <div className="stat"><span className="num">20+</span><span className="label">Members</span></div>
             <div className="sep" />
             <div className="stat"><span className="num">5+</span><span className="label">Awards</span></div>
             <div className="sep" />
             <div className="stat"><span className="num">2</span><span className="label">Vehicles</span></div>
-          </motion.div>
+          </motion.div> */}
+          
         </div>
       </section>
 
