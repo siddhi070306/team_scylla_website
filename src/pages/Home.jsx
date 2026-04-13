@@ -144,15 +144,15 @@ const Home = () => {
             <div className="badge">Portfolio</div>
           </motion.div>
           <motion.h1 className="hero-title" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .08, duration: .7, ease: [0.16,1,0.3,1] }}>
-            Siddhi Bhosale
+           Team Scylla Racing
             <span className="title-glow" />
           </motion.h1>
           <motion.p className="hero-sub" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .12, duration: .6 }}>
-           Hey there! I'm a Computer Science Engineering student who is passionately diving into the world of software development. My goal is to build clean, efficient, and impactful web applications.
+           Team Scylla a motorsports club .......
 
           </motion.p>
           <motion.p className="hero-sub" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .12, duration: .6 }}>
-           My current tech stack is centered around MERN (MongoDB, Express.js, React, and Node.js)
+           This is a college driven motorsports clup entusiast and participates in variours competions like BAJA,FOMBI etc....
           </motion.p>
           <motion.div className="cta-row" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .16, duration: .5 }}>
             <motion.a whileHover={{ y: -3, scale: 1.02 }} whileTap={{ scale: .98 }} href="#gallery" className="cta primary">
