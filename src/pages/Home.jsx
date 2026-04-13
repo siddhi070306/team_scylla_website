@@ -141,7 +141,7 @@ const Home = () => {
           onClick={(e) => ripplesRef.current?.triggerAtPoint(e.clientX, e.clientY)}
         >
           <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .6, ease: [0.16,1,0.3,1] }}>
-            <div className="badge">Portfolio</div>
+            <div className="badge">NMIET</div>
           </motion.div>
           <motion.h1 className="hero-title" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .08, duration: .7, ease: [0.16,1,0.3,1] }}>
            Team Scylla Racing
